@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fork</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form>
+    <div class="form-container">
+      <div class="form-left-block">
+        <h1 class="form-left-text">Sign up</h1>
+      </div>
+
+      <div class="form-right-block">
+        <div class="form-right-title">
+          <h1>New user? </h1>
+          <h2>Use the form below to create your account.</h2>
+        </div>
+
+        <div class="form-block">
+          <div class="form-item">
+            <label form="formName" class="form-label">First Name</label>
+            <input id="forName" type="text" name="name" class="form-input input" value="Alice">
+          </div>
+
+          <div class="form-item">
+            <label form="formLastName" class="form-label">Last Name</label>
+            <input id="formLastName" type="text" name="lastName" class="form-input input" value="Miller">
+          </div>
+
+          <div class="form-item">
+            <label form="formNationality" class="form-label">Nationality</label>
+            <select name="nationality" class="form-input input select">
+              <option value="American" selected>American</option>
+              <option value="Belarussian">Belarussian</option>
+              <option value="Russian">Russian</option>
+            </select>
+            <div class="arr national"></div>
+          </div>
+
+          <div class="form-item">
+            <label form="formEmail" class="form-label">E-mail</label>
+            <input id="formEmail" type="text" name="email" class="form-input input error-email"
+              value="alise.miller@yahoo.com">
+          </div>
+
+          <div class="form-item">
+            <label for="formDate" class="form-label">Date of Birth</label>
+            <div class="date-block">
+              <select name="day" class="form-input select input-day">
+                <option value="19">21</option>
+              </select>
+              <div class="arr date"></div>
+              <select name="month" class="form-input select input-month">
+                <option value="December">December</option>
+              </select>
+              <div class="arr date"></div>
+              <select name="year" class="form-input select input-year">
+                <option value="1995">1995</option>
+              </select>
+              <div class="arr date"></div>
+            </div>
+          </div>
+
+          <div class="form-item">
+            <label class="form-label">Gender</label>
+            <div class="form-gender">
+              <div class="gender-options">
+                <input type="radio" name="gender" id="male" value="male" checked>
+                <label for="formMale" class="form-label-radio">Male</label>
+              </div>
+              <div class="gender-options female">
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="formFemale" class="form-label-radio">Female</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-item">
+            <label form="formPass" class="form-label">Password</label>
+            <input id="" type="password" name="" class="form-input input">
+          </div>
+
+          <div class="form-item">
+            <label form="formConfirmPass" class="form-label">Confirm Password</label>
+            <input id="" type="password" name="" class="form-input input">
+          </div>
+
+          <div class="form-login">
+            <div class="login-text">
+              <span>Have an account?</span><a class="login">Login</a>
+            </div>
+            <div>
+              <button class="form-btn">Complete Signup</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</body>
